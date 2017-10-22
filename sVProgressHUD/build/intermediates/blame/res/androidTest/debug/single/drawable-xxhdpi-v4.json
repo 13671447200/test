@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_svstatus_info.png",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_svstatus_info.png"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_svstatus_success.png",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_svstatus_success.png"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_svstatus_error.png",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_svstatus_error.png"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_svstatus_loading.png",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_svstatus_loading.png"
+    }
+]

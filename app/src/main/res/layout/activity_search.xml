@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_play_list_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/back" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <EditText
+            android:id="@+id/et_bottom_border"
+            android:layout_width="0dp"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="top"
+            android:layout_height="50dp" />
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_main_search"
+            android:layout_width="35dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/search" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+    </LinearLayout>
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/pull_refresh"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </com.baoyz.widget.PullRefreshLayout>
+
+    <include layout="@layout/play_layout"></include>
+
+</LinearLayout>

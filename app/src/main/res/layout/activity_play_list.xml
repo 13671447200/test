@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud">
+
+    <RelativeLayout
+        android:background="@color/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_play_list_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/back" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <TextView
+            android:id="@+id/tv_play_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_play_list_no_data"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="没有数据"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <ListView
+        android:visibility="visible"
+        android:background="@color/tran_light_grey"
+        android:id="@+id/list_view"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <include layout="@layout/play_layout" />
+</LinearLayout>

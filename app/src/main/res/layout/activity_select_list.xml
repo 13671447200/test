@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud">
+
+    <RelativeLayout
+        android:background="@color/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_play_list_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/back" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <TextView
+            android:id="@+id/tv_select_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="选择歌曲"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_select_list_all"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:text="全选"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:background="@color/tran_light_grey"
+        android:id="@+id/list_view"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <TextView
+        android:gravity="center"
+        android:background="@color/title"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:text="上传"
+        android:id="@+id/tv_select_list_upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

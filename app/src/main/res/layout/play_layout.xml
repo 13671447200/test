@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_main_show_info"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:src="@drawable/img_album_background" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/linear_bottom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <com.ttdt.Util.Custom.MarqueeTextView
+            android:id="@+id/tv_main_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="艺术家"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:lines="1"
+            android:textColor="@color/play_layout" />
+
+        <com.ttdt.Util.Custom.MarqueeTextView
+            android:id="@+id/tv_main_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="歌曲名称"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:lines="1"
+            android:textColor="@color/play_layout" />
+
+        <RelativeLayout
+            android:id="@+id/rl_main_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_main_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/play_layout" />
+
+            <TextView
+                android:id="@+id/tv_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_main_current_time"
+                android:text=" - "
+                android:textColor="@color/play_layout" />
+
+            <TextView
+                android:id="@+id/tv_main_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_l"
+                android:text="00:00"
+                android:textColor="@color/play_layout" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.ttdt.Util.Custom.InterceptLinearLayout
+        android:id="@+id/ill_main_previous"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/playbar_btn_up" />
+    </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+    <com.ttdt.Util.Custom.InterceptLinearLayout
+        android:id="@+id/ill_main_play"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_main_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playbar_btn_play" />
+    </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+    <com.ttdt.Util.Custom.InterceptLinearLayout
+        android:id="@+id/ill_main_next"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playbar_btn_next" />
+    </com.ttdt.Util.Custom.InterceptLinearLayout>
+</LinearLayout>

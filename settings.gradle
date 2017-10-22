@@ -1,0 +1,3 @@
+include ':app', ':refresh', ':sVProgressHUD', ':shadowLayout', ':mainActivity'
+include ':l017Notes'
+include ':scrollerDemo'

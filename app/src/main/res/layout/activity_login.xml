@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ttdt.Util.Custom.InputRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <!--<ScrollView-->
+        <!--android:layout_below="@+id/title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <RelativeLayout
+            android:layout_below="@+id/title"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_login_music_text"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/basis"
+                    android:textSize="27sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_login_input_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/rl_login_music_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="账号:"
+                    android:textColor="@color/text_gray" />
+
+                <EditText
+                    android:id="@+id/et_login_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入您的账号"
+                    android:textColorHint="@color/text_hint_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_login_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/ll_login_input_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="密码:"
+                    android:textColor="@color/text_gray" />
+
+                <EditText
+                    android:id="@+id/et_login_password"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入您的密码"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/text_hint_gray" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_login_submit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/ll_login_input_password"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_basis_selector"
+                android:text="登 录"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_below="@+id/btn_login_submit"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="注：不需要注册，登录时会自动注册"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/buttom"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/btn_login_submit">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_login_register"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="注 册 账 号"-->
+                    <!--android:textColor="@color/basis" />-->
+
+                <!--<CheckBox-->
+                    <!--android:id="@+id/cb_login_auto"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="下次自动登录"-->
+                    <!--android:textColor="@color/basis" />-->
+
+            <!--</RelativeLayout>-->
+        </RelativeLayout>
+    <!--</ScrollView>-->
+</com.ttdt.Util.Custom.InputRelativeLayout>

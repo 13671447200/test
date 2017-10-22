@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 57,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 57,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 76,
+                    "endOffset": 237
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 76,
+                        "endOffset": 237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 65,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endColumn": 65,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 86,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 86,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 68,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 68,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 823,
+                    "endColumn": 65,
+                    "endOffset": 884
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 65,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 889,
+                    "endColumn": 59,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 59,
+                        "endOffset": 944
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endColumn": 58,
+                    "endOffset": 1003
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 949,
+                        "endColumn": 58,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1008,
+                    "endColumn": 52,
+                    "endOffset": 1056
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1008,
+                        "endColumn": 52,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1061,
+                    "endColumn": 54,
+                    "endOffset": 1111
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 54,
+                        "endOffset": 1111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1116,
+                    "endColumn": 66,
+                    "endOffset": 1178
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1116,
+                        "endColumn": 66,
+                        "endOffset": 1178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1183,
+                    "endColumn": 64,
+                    "endOffset": 1243
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1183,
+                        "endColumn": 64,
+                        "endOffset": 1243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1248,
+                    "endColumn": 62,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1248,
+                        "endColumn": 62,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 50,
+                    "endOffset": 1357
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1311,
+                        "endColumn": 50,
+                        "endOffset": 1357
+                    }
+                }
+            }
+        ]
+    }
+]

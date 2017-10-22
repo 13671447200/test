@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/concrete_play_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_concrete_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/back" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/tv_concrete_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_concrete_artists"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/tran_light_grey" />
+
+                <TextView
+                    android:id="@+id/tv_concrete_album"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/tran_light_grey" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.ttdt.Util.lrc.LrcView
+        android:layout_marginTop="8dp"
+        android:id="@+id/mLrcView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_concrete_current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="00:00"
+            android:textColor="@color/tran_light_grey" />
+
+        <SeekBar
+            android:id="@+id/seek_br_concrete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:progress="20"
+            android:layout_weight="1" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_concrete_total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="00:00"
+            android:textColor="@color/tran_light_grey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_concrete_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_mode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_concrete_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/random_play" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_previous"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/previous" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_concrete_ico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pause" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/next" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+        <com.ttdt.Util.Custom.InterceptLinearLayout
+            android:id="@+id/ill_concrete_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_menu_point" />
+        </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

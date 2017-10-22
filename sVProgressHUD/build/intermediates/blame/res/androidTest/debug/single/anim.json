@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svslide_in_bottom.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svslide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svslide_in_top.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svslide_in_top.xml"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svfade_in_center.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svfade_in_center.xml"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svslide_out_bottom.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svslide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svslide_out_top.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svslide_out_top.xml"
+    },
+    {
+        "merged": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\svfade_out_center.xml",
+        "source": "E:\\professional\\project\\android\\TTDT\\sVProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\svfade_out_center.xml"
+    }
+]

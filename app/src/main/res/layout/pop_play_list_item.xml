@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ttdt.Util.Custom.InterceptLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <com.ttdt.Util.Custom.InterceptLinearLayout
+        android:layout_width="50dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/login_bg_night"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </com.ttdt.Util.Custom.InterceptLinearLayout>
+
+   <TextView
+       android:layout_marginLeft="5dp"
+       android:textSize="18sp"
+       android:textColor="@android:color/black"
+       android:gravity="center"
+       android:id="@+id/tv_play_list_item_name"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent" />
+
+</com.ttdt.Util.Custom.InterceptLinearLayout>

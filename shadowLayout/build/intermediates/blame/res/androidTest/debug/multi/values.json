@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\professional\\project\\android\\TTDT\\shadowLayout\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2384,
+                    "endColumn": 53,
+                    "endOffset": 2433
+                },
+                "from": {
+                    "file": "E:\\professional\\project\\android\\TTDT\\shadowLayout\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2384,
+                        "endColumn": 53,
+                        "endOffset": 2433
+                    }
+                }
+            }
+        ]
+    }
+]

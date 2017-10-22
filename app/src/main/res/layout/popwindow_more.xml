@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_pop_more_next"
+        android:text="下一首播放"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<include layout="@layout/link"></include>-->
+    <TextView
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_pop_more_add"
+        android:text="添加到歌单"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<include layout="@layout/link"></include>-->
+    <TextView
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_pop_more_collect"
+        android:text="收藏"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_pop_more_down"
+        android:text="下载"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

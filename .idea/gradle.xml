@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:\professional\professional_video\android\最新学生使用工具Android\学生使用工具2\android-studio-ide-2.2-windows\android-studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/l017Notes" />
+            <option value="$PROJECT_DIR$/mainActivity" />
+            <option value="$PROJECT_DIR$/refresh" />
+            <option value="$PROJECT_DIR$/sVProgressHUD" />
+            <option value="$PROJECT_DIR$/scrollerDemo" />
+            <option value="$PROJECT_DIR$/shadowLayout" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
